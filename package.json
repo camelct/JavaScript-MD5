@@ -1,5 +1,5 @@
 {
-  "name": "blueimp-md5",
+  "name": "blueimp-md5-es6",
   "version": "2.7.0",
   "title": "JavaScript MD5",
   "description": "JavaScript MD5 implementation. Compatible with server-side environments like Node.js, module loaders like RequireJS, Browserify or webpack and all web browsers.",
@@ -41,8 +41,8 @@
     "compressES5": "uglifyjs dist/md5.js -c -m -o dist/md5.min.js --source-map dist/md5.min.js.map",
     "build":"npm run rollup && npm run babel && npm run compressES6 && npm run compressES5",
     "preversion": "npm test",
-    "version": "npm run build && npm run compress && git add -A js",
-    "postversion": "git push --tags origin master master:gh-pages && npm publish"
+    "version": "npm run build && git add -A js",
+    "postversion": "git push --tags origin master && npm publish"
   },
-  "main": "dist/md5.js"
+  "main": "dist/es6/md5.js"
 }

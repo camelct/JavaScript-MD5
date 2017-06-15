@@ -1,5 +1,7 @@
 # JavaScript MD5
 
+**This is fork from [blueimp](https://github.com/blueimp/JavaScript-MD5), rewritten in es6, and added rollup + babel in build.**
+
 ## Demo
 [JavaScript MD5 Demo](https://blueimp.github.io/JavaScript-MD5/)
 
@@ -36,7 +38,7 @@ Create a new directory and add the **md5.js** file. Or alternatively,
 install the **blueimp-md5** package with [npm](https://www.npmjs.org/):
 
 ```sh
-npm install blueimp-md5
+npm install blueimp-md5-es6
 ```
 
 Add a file **server.js** with the following content:
