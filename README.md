@@ -28,6 +28,16 @@ method with the string as argument:
 ```js
 var hash = md5("value"); // "2063c1608d6e0baf80249c42e2be5804"
 ```
+### in es6 imports
+
+In `crc/md5` folder still available raw es6 source, without babel/rollup. 
+You can use them in your projects, when raw es6 is required.
+
+```javascript
+    import md5 from 'md5';
+    var hash = md5("value"); // "2063c1608d6e0baf80249c42e2be5804"
+
+```
 
 ### Server-side
 
