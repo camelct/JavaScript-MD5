@@ -1,11 +1,11 @@
 {
   "name": "blueimp-md5-es6",
-  "version": "2.7.3",
+  "version": "2.7.4",
   "title": "JavaScript MD5",
   "description": "JavaScript MD5 implementation. Compatible with server-side environments like Node.js, module loaders like RequireJS, Browserify or webpack and all web browsers.",
   "keywords": [
     "javascript",
-    "md5"
+    "md5", "es6"
   ],
   "homepage": "https://github.com/gunins/JavaScript-MD5",
   "author": {
